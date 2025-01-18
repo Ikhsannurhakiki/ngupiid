@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ngupiid/asset/helper/colors.dart';
 import 'package:ngupiid/ui/mainScreen.dart';
 import 'package:ngupiid/data/dummydata.dart';
 import 'package:ngupiid/ui/components/itemCard.dart';
@@ -18,16 +19,19 @@ class _HomeScreen extends State<HomeScreen> {
       appBar: AppBar(
         title: Text('Product List'),
       ),
-      body: ListView.builder(
-        padding: EdgeInsets.all(16),
-        itemCount: dummyProducts.length,
-        itemBuilder: (context, index) {
-          final product = dummyProducts[index];
-          return Padding(
-            padding: const EdgeInsets.only(bottom: 16.0),
-            child: ItemCard(product: product),
-          );
-        },
+      body: Container(
+        decoration: BoxDecoration(color: ColorsHelper.bgColor),
+        child: ListView.builder(
+          padding: EdgeInsets.all(16),
+          itemCount: dummyProducts.length,
+          itemBuilder: (context, index) {
+            final product = dummyProducts[index];
+            return Padding(
+              padding: const EdgeInsets.only(bottom: 16.0),
+              child: ItemCard(product: product),
+            );
+          },
+        ),
       ),
     );
   }

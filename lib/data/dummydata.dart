@@ -3,10 +3,11 @@ import 'package:ngupiid/data/product.dart';
 final List<Product> dummyProducts = [
   Product(
     id: '1',
-    name: 'Smartphone',
-    description: 'A high-end smartphone with 128GB storage.',
-    price: 799.99,
-    imageUrl: 'https://via.placeholder.com/150',
+    name: 'Robusta Pack 500g',
+    description: 'A high-quality for coffee lover.',
+    price: 125.000,
+    imageUrl:
+        'https://kopicha.com/wp-content/uploads/2021/01/Robusta-Ground-Coffee-268x300.jpg',
     rating: 4.5,
     stock: 10,
     isFavorite: true,

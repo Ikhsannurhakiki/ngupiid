@@ -1,3 +1,4 @@
+import 'package:ngupiid/asset/helper/colors.dart';
 import 'package:ngupiid/data/product.dart';
 import 'package:flutter/material.dart';
 
@@ -9,6 +10,7 @@ class ItemCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      color: BrownPalette.brown200,
       elevation: 4, // Adds shadow to the card
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12), // Rounded corners
@@ -54,7 +56,7 @@ class ItemCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  '\$${product.price.toStringAsFixed(2)}',
+                  'Rp ${product.price.toStringAsFixed(2)}',
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
@@ -90,7 +92,7 @@ class ItemCard extends StatelessWidget {
                   // Add to cart logic
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blue,
+                  backgroundColor: ColorsHelper.buttonColor,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(8),
                   ),
