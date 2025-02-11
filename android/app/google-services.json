@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "368391568879",
+    "project_id": "ngupiid-47f9f",
+    "storage_bucket": "ngupiid-47f9f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368391568879:android:b124d938330a07d957ca1a",
+        "android_client_info": {
+          "package_name": "com.nurhakiki.ngupiid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu_6Nvox9pcSQpqBqbkV8YGpxDg3swDTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

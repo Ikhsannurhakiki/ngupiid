@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:ngupiid/asset/helper/colors.dart';
-import 'package:ngupiid/ui/mainScreen.dart';
 import 'package:ngupiid/data/dummydata.dart';
 import 'package:ngupiid/ui/components/itemCard.dart';
 

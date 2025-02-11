@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:ngupiid/asset/helper/colors.dart';
 import 'package:ngupiid/ui/mainScreen.dart';
 
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({super.key});
+class LoginScreenSmall extends StatefulWidget {
+  const LoginScreenSmall({super.key});
 
   @override
-  State<LoginScreen> createState() => _LoginScreenState();
+  State<LoginScreenSmall> createState() => _LoginScreenState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _LoginScreenState extends State<LoginScreenSmall> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,6 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           decoration: InputDecoration(
                             labelStyle: TextStyle(
                               color: Colors.white,
+                              fontSize: 13,
                               fontWeight: FontWeight.w300,
                             ),
                             filled: true,
@@ -79,7 +80,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           decoration: InputDecoration(
                             labelStyle: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 13,
                               fontWeight: FontWeight.w300,
                             ),
                             filled: true,
@@ -139,7 +140,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   style: TextStyle(
                                       color: Colors.black,
                                       fontWeight: FontWeight.w500,
-                                      fontSize: 20)))),
+                                      fontSize: 15)))),
                       SizedBox(
                           height: MediaQuery.of(context).size.height * 0.01),
                       TextButton(
@@ -150,7 +151,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             "Forget Your Password?",
                             style: TextStyle(
                                 color: Colors.black,
-                                fontSize: 20.0,
+                                fontSize: 15.0,
                                 fontWeight: FontWeight.w500),
                           )),
                       SizedBox(
@@ -168,7 +169,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               "Need an account?",
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontSize: 20.0,
+                                  fontSize: 15.0,
                                   fontWeight: FontWeight.w500),
                             ),
                             Row(
